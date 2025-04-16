@@ -1,0 +1,90 @@
+.grey-bg {
+  background-color: #373c3f;
+}
+.turquoise-bg {
+  background-color: #12abbf;
+}
+.pink-bg {
+  background-color: #bc3183;
+}
+.dark-purple-bg {
+  background-color: #27212c;
+}
+.purple-bg {
+  background-color: #5b0fa1;
+}
+.light-grey-bg {
+  background-color: #ebebeb;
+}
+.dark-grey-bg {
+  background-color: #202529;
+}
+.light-turquoise-font {
+  color: #a9d3dc;
+}
+.light-purple-font {
+  color: #9686a4;
+}
+.turquoise-font {
+  color: #088ca5;
+}
+.grey-font {
+  color: #767676;
+}
+body {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+.robin-hood-section {
+  display: flex;
+  flex-direction: row;
+}
+.robin-hood-block {
+  width: 100%;
+}
+.arrow {
+  display: flex;
+}
+.arrow img {
+  display: block;
+  margin: auto;
+}
+.robin-hood-block {
+  display: flex;
+}
+.robin-hood-block h2 {
+  display: block;
+  margin: auto;
+}
+.responsive-img {
+  width: 100%;
+  display: block;
+}
+.info-section {
+  padding: 40px 70px 70px 90px;
+}
+.secondary-title {
+  display: flex;
+  flex-direction: row;
+}
+.secondary-title div:first-child {
+  width: 100%;
+}
+.title-banner {
+  box-shadow: 0px -23px 25px 0px rgba(0, 0, 0, 0.17) inset, 0px -36px 30px 0px rgba(0, 0, 0, 0.15) inset, 0px -79px 40px 0px rgba(0, 0, 0, 0.1) inset, 0px 2px 1px rgba(0, 0, 0, 0.06), 0px 4px 2px rgba(0, 0, 0, 0.09), 0px 8px 4px rgba(0, 0, 0, 0.09), 0px 16px 8px rgba(0, 0, 0, 0.09);
+}
+.title-banner-container {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-weight: 550;
+}

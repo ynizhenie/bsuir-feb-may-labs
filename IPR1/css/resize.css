@@ -1,0 +1,204 @@
+@media screen and (max-device-width: 979px) {
+    .full-menu {
+        display: none;
+    }
+    .picture-section .arrow {
+        width: 100vw;
+        height: 70vw;
+    }
+    .text-block .right {
+        display: none;
+    }
+    .small-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .small-menu .navigation-title {
+        display: block;
+        margin: auto;
+        margin-left: 20px;
+    }
+    .nav-icon > img {
+        height: -webkit-fill-available;
+        padding: 20%;
+    }
+    .nav-icon {
+        aspect-ratio: 1/1;
+        width: max-content;
+    }
+    .picture-section > .arrow > img {
+        width: 55px;
+    }
+    .robin-hood-section > .arrow > img {
+        width: 25px;
+    }
+    .secondary-title> .arrow > img {
+        width: 20px;
+    }
+} 
+@media screen and (min-device-width: 980px) {
+    .small-menu {
+        display: none;
+    }
+    .navbar {
+        height: 95px;
+    }
+    .navbar .full-menu{
+        display: flex;
+        margin: auto;
+        margin-left: 20px;
+        justify-content: space-evenly;
+        font-weight: 600;
+    }
+    .picture-section {
+        display: flex;
+        flex-direction: row;
+    }
+    .picture-section div {
+        width: 33.4vw;
+    }
+    .text-block {
+        display: flex;
+        justify-content: space-between;
+    }
+    .text-block div {
+        max-width: 47%;
+    }
+    .text-block .right {
+        font-weight: 700;
+    }
+    .picture-section > .arrow > img {
+        width: 25px;
+    }
+    .robin-hood-section > .arrow > img {
+        width: 35px;
+    }
+    .secondary-title> .arrow > img {
+        width: 25px;
+    }
+} 
+
+@media screen and (min-device-width: 1024px) {
+    .title-banner {
+        height: 580px;
+    }
+    .robin-hood-section {
+        height: 245px;
+    }
+    .robin-hood-section .arrow {
+        width: 235px;
+    }
+    .picture-section {
+        height: 295px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h1 {
+        font-size: 55px;
+        margin: 10px 0;
+    }
+    .title-banner-container {
+        margin: 150px 260px  0px 150px;
+    }
+    .secondary-title {
+        max-width: 600px;
+    }
+    .navbar .full-menu{
+        width: 70%;
+        font-size: 20px;
+    }
+} 
+
+@media screen and (min-device-width: 980px) and (max-device-width: 1023px) {
+    .title-banner {
+        height: 550px;
+    }
+    .robin-hood-section {
+        height: 235px;
+    }
+    .robin-hood-section .arrow {
+        width: 220px;
+    }
+    .picture-section {
+        height: 290px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    h1 {
+        font-size: 50px;
+        margin: 10px 0;
+    }
+    .title-banner-container {
+        margin: 150px 260px  0px 150px;
+    }
+    .secondary-title {
+        max-width: 550px;
+    }
+    .navbar .full-menu{
+        width: 65%;
+        font-size: 18px;
+    }
+    .picture-section {
+        height: 270px;;
+    }
+}
+
+@media screen and (min-device-width: 640px) and (max-device-width: 979px) {
+    .navbar {
+        height: 75px;
+    }
+    .title-banner {
+        height: 450px;
+    }
+    .robin-hood-section {
+        height: 150px;
+    }
+    .robin-hood-section .arrow {
+        width: 145px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 40px;
+        margin: 10px 0;
+    }
+    .title-banner-container {
+        margin: 100px 260px  0px 150px;
+    }
+    .secondary-title {
+        max-width: 450px;
+    }
+} 
+
+@media screen and (min-device-width: 320px) and (max-device-width: 639px) {
+    .navbar {
+        height: 60px;
+    }
+    .title-banner {
+        height: 375px;
+    }
+    .robin-hood-section {
+        height: 80px;
+    }
+    .robin-hood-section .arrow {
+        width: 75px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 35px;
+        margin: 10px 0;
+    }
+    .title-banner-container {
+        margin: 100px 260px  0px 150px;
+    }
+    .secondary-title {
+        max-width: 320px;
+    }
+} 
